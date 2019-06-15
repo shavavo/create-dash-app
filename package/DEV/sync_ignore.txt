@@ -1,0 +1,14 @@
+*/.ipynb*
+*/sqlCredentials.py
+.git/
+.*
+README.md
+
+*/__pycache__/
+*/.ipynb_checkpoints/
+*/.vscode/
+*/sqlCredentials.py
+
+*/.DS_Store
+
+*/app.py
