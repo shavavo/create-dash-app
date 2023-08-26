@@ -1,11 +1,5 @@
-import dash
-import dash_auth
-
-import flask
-import base64
-
+import dash, dash_auth, flask, base64, page
 from app import *
-import page
 
 dash_app.layout = page.layout
 dash_app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
