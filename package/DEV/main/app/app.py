@@ -1,11 +1,7 @@
-import dash
-import dash_auth
-import appCredentials
-import flask
+import dash, dash_auth, appCredentials, flask
 
-app = flask.Flask(__name__)
+app, dash_app = flask.Flask(__name__), dash.Dash(__name__, server = app)
 
-dash_app = dash.Dash(__name__, server = app)
 dash_app.config.update({
         'suppress_callback_exceptions': True
 })
